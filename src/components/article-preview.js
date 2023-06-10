@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
+import { renderRichText } from 'gatsby-source-contentful/rich-text'
 
 import Container from './container'
 import Tags from './tags'
@@ -17,14 +18,12 @@ const ArticlePreview = ({ posts }) => {
           return (
             <li key={post.slug}>
               <Link to={`/blog/${post.slug}`} className={styles.link}>
-                <GatsbyImage alt="" image={post.heroImage.gatsbyImageData} />
+                <GatsbyImage alt="" image={post.heroImage.gatsbyImage} />
                 <h2 className={styles.title}>{post.title}</h2>
               </Link>
-              <div
-                dangerouslySetInnerHTML={{
-                  __html: post.description.childMarkdownRemark.html,
-                }}
-              />
+              <div>
+                {post.description?.raw && renderRichText(post.description)}
+              </div>
               <div className={styles.meta}>
                 <small className="meta">{post.publishDate}</small>
                 <Tags tags={post.tags} />
