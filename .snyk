@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-ANSIREGEX-1583908:
+    - '*':
+        reason: 'Transitive dependency of gatsby-cli, which is not used in production'
+        expires: 2023-07-10T15:15:18.551Z
+        created: 2023-06-10T15:15:18.555Z
+patch: {}
