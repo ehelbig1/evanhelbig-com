@@ -1,9 +1,12 @@
 {
-  "name": "evanhelbig-com",
-  "description": "Evan Helbig's Blog",
+  "name": "contentful-starter-gatsby-blog",
+  "description": "Contentful Gatsby Starter Blog",
   "private": true,
   "version": "0.0.1",
-  "author": "Evan Helbig <evan@evanhelbig.com>",
+  "author": "Contentful <opensource@contentful.com>",
+  "bugs": {
+    "url": "https://github.com/contentful/starter-gatsby-blog/issues"
+  },
   "dependencies": {
     "@contentful/rich-text-plain-text-renderer": "^15.12.1",
     "gatsby": "^5.5.0",
@@ -25,14 +28,13 @@
     "netlify-cli": "^10.0.0"
   },
   "engines": {
-    "node": ">=12.22.0"
+    "node": ">=18.0.0"
   },
-  "homepage": "https://evanhelbig.com",
+  "homepage": "https://github.com/contentful/starter-gatsby-blog#readme",
   "keywords": [
-    "Application Security",
-    "Cybersecurity",
-    "Software Engineer",
-    "Development"
+    "gatsby",
+    "contentful",
+    "starter"
   ],
   "license": "MIT",
   "main": "n/a",
