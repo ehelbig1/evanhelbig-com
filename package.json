@@ -1,12 +1,9 @@
 {
-  "name": "contentful-starter-gatsby-blog",
-  "description": "Contentful Gatsby Starter Blog",
+  "name": "evanhelbig-com",
+  "description": "Evan Helbig's Blog",
   "private": true,
   "version": "0.0.1",
-  "author": "Contentful <opensource@contentful.com>",
-  "bugs": {
-    "url": "https://github.com/contentful/starter-gatsby-blog/issues"
-  },
+  "author": "Evan Helbig <evan@evanhelbig.com>",
   "dependencies": {
     "gatsby": "^3.14.5",
     "gatsby-plugin-image": "^1.10.1",
@@ -30,15 +27,19 @@
   },
   "homepage": "https://github.com/contentful/starter-gatsby-blog#readme",
   "keywords": [
-    "gatsby",
-    "contentful",
-    "starter"
+    "Application Security",
+    "Cybersecurity",
+    "Software",
+    "Rust",
+    "Programming",
+    "SDLC",
+    "Shift Left Security"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/contentful/starter-gatsby-blog.git"
+    "url": "git+https://github.com/ehelbig1/evanhelbig-com.git"
   },
   "scripts": {
     "dev": "gatsby develop",
