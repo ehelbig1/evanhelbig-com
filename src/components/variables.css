@@ -9,6 +9,7 @@
   --font-serif: 'Times New Roman', Times, serif;
 
   /* palette */
+  --gray: rgba(230, 231, 232, 0.9);
   --white: #fff;
   --black: #000;
   --black-fade-5: rgba(0, 0, 0, 0.05);
@@ -53,7 +54,7 @@
   /* tokens */
   /* colors */
   --primary: #4a90e2;
-  --background: var(--white);
+  --background: var(--gray);
   --border: var(--black-fade-5);
 
   /* text */
